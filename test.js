@@ -1,15 +1,6 @@
-let number = 123;
-let number2 = 1.23;
+let x = 1;
+let y = x;
 
-console.log(number, number2);
+y += 1;
 
-let number3 = 4;
-let number4 = 3;
-console.log(number3 / number4);
-
-let number5 = 1.2;
-let number6 = 0.6;
-
-console.log(number5 - number6);
-
-console.log(3 - 1.3);
+console.log(x, y);
